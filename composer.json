@@ -1,0 +1,16 @@
+{
+    "name": "jacek/app",
+    "autoload": {
+        "psr-4": {
+            "Jacek\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jacek"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    }
+}
