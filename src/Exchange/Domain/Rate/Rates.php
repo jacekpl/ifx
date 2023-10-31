@@ -18,6 +18,12 @@ class Rates
         $this->rates[] = $rate;
     }
 
+    /** @return Rate[] */
+    public function all(): array
+    {
+        return $this->rates;
+    }
+
     public function rate(Currency $from, Currency $to): Rate
     {
         foreach ($this->rates as $rate) {
