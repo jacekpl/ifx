@@ -1,8 +1,8 @@
 <?php
 
-namespace Jacek\App\Exchange;
+namespace Jacek\App\Exchange\Domain\Rate;
 
-use Jacek\App\Money\Currency;
+use Jacek\App\Exchange\Domain\Money\Currency;
 
 readonly class Rate
 {

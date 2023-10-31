@@ -1,6 +1,6 @@
 <?php
 
-namespace Jacek\App\Money;
+namespace Jacek\App\Exchange\Domain\Money;
 
 class Money
 {

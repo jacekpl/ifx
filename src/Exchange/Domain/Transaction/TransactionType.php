@@ -1,6 +1,6 @@
 <?php
 
-namespace Jacek\App\Exchange;
+namespace Jacek\App\Exchange\Domain\Transaction;
 
 enum TransactionType
 {

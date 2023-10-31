@@ -1,9 +1,11 @@
 <?php
 
-namespace Jacek\App\Exchange;
+namespace Jacek\App\Exchange\Application;
 
-use Jacek\App\Money\Currency;
-use Jacek\App\Money\Money;
+use Jacek\App\Exchange\Domain\Money\Currency;
+use Jacek\App\Exchange\Domain\Money\Money;
+use Jacek\App\Exchange\Domain\Rate\Rates;
+use Jacek\App\Exchange\Domain\Transaction\TransactionType;
 
 readonly class Exchange
 {

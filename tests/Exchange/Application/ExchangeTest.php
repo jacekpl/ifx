@@ -2,11 +2,11 @@
 
 namespace Jacek\App\Tests\Exchange;
 
-use Jacek\App\Exchange\Exchange;
-use Jacek\App\Exchange\Rate;
-use Jacek\App\Exchange\Rates;
-use Jacek\App\Exchange\TransactionType;
-use Jacek\App\Money\Currency;
+use Jacek\App\Exchange\Application\Exchange;
+use Jacek\App\Exchange\Domain\Money\Currency;
+use Jacek\App\Exchange\Domain\Rate\Rate;
+use Jacek\App\Exchange\Domain\Rate\Rates;
+use Jacek\App\Exchange\Domain\Transaction\TransactionType;
 use PHPUnit\Framework\TestCase;
 
 class ExchangeTest extends TestCase
